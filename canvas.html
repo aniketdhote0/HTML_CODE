@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANVAS</title>
+</head>
+<body>
+    <canvas id="1" width="500" height="500" style="border:2px solid #111010;"> </canvas>
+    
+
+    <script>
+        var canvas=document.getElementById("1");
+        var ctx=canvas.getContext("2d");
+        ctx.fillStyle="#af00dd"; ctx.fillRect(0,0,250,250);
+        ctx.fillStyle="#5e60ce"; ctx.fillRect(250,0,250,250);
+        ctx.fillStyle="#80ffdb"; ctx.fillRect(0,250,250,500);
+        ctx.fillStyle="#ff0000"; ctx.fillRect(250,250,250,250);
+        ctx.fillStyle="#cc6c5c"; ctx.fillRect(125,125,250,250);
+    </script>
+   
+</body>
+</html>

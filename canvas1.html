@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANVAS</title>
+</head>
+<body>
+    <canvas id="2" width="600" height="600" style="border:2px solid #111010;"> </canvas>
+    
+
+    <script>
+        var canvas=document.getElementById("2");
+        var ctx=canvas.getContext("2d");
+        ctx.fillStyle="#af00dd"; ctx.fillRect(0,0,100,100);
+        ctx.fillStyle="#ff0012"; ctx.fillRect(200,0,100,100);
+        ctx.fillStyle="#00ffcd"; ctx.fillRect(400,0,100,100);
+
+        ctx.fillStyle="#88ccdd"; ctx.fillRect(100,100,100,100);
+        ctx.fillStyle="#af00dd"; ctx.fillRect(300,100,100,100);
+        ctx.fillStyle="#777777"; ctx.fillRect(500,100,100,100);
+        
+        ctx.fillStyle="#af00dd"; ctx.fillRect(0,200,100,100);
+        ctx.fillStyle="#ff0012"; ctx.fillRect(200,200,100,100);
+        ctx.fillStyle="#123345"; ctx.fillRect(400,200,100,100);
+        
+        ctx.fillStyle="#147852"; ctx.fillRect(100,300,100,100);
+        ctx.fillStyle="#af00dd"; ctx.fillRect(300,300,100,100);
+        ctx.fillStyle="#777777"; ctx.fillRect(500,300,100,100);
+        
+        ctx.fillStyle="#af00dd"; ctx.fillRect(0,400,100,100);
+        ctx.fillStyle="#ff0012"; ctx.fillRect(200,400,100,100);
+        ctx.fillStyle="#123345"; ctx.fillRect(400,400,100,100);
+
+        ctx.fillStyle="#852369"; ctx.fillRect(100,500,100,100);
+        ctx.fillStyle="#abc123"; ctx.fillRect(300,500,100,100);
+        ctx.fillStyle="#cba789"; ctx.fillRect(500,500,100,100);
+
+        ctx.beginPath();
+        ctx.arc(300, 300, 300, 0, 2 * Math.PI);
+        ctx.stroke();
+
+       
+
+    </script>
+</body>
+</html>
